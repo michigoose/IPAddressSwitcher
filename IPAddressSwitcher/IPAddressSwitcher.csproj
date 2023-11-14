@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <ApplicationIcon>bin\Debug\net6.0\IPAddressSwitcher.ico</ApplicationIcon>
+    <PackageIcon>6383225.png</PackageIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\net6.0\IPAddressSwitcher.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\Desktop\6383225.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
